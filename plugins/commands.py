@@ -13,7 +13,7 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+💡 ** I'm StylishIt bot**
 
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 
@@ -23,7 +23,7 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('My father:', url=f"https://t.me/{owner_username}")
         ]
     ]
     await m.reply_text(
