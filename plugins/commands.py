@@ -21,8 +21,7 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('CHANNEL', url=f"https://t.me/Bettergram}
-")
+            InlineKeyboardButton('CHANNEL', url=f"https://t.me/Bettergram")
         ]
     ]
     await m.reply_text(
