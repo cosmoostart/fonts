@@ -15,7 +15,7 @@ async def start(c, m):
 
 💡 ** I'm BettergramBot**
 
-**I can help you to get stylish fonts. Just send me some text and see magic.**
+**I can help you to get stylish fonts. Just send me some text and get the result.**
 """
 
     # Buttons
