@@ -13,17 +13,15 @@ async def start(c, m):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
 
-💡 ** I'm StylishIt bot**
+💡 ** I'm BettergramBot**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
-
-**🔌 powered by:** {owner.mention(style='md')}
+**I can help you to get stylish fonts. Just send me some text and see magic.**
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My father:', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('CHANNEL', url=f"https://t.me/Bettergram}")
         ]
     ]
     await m.reply_text(
